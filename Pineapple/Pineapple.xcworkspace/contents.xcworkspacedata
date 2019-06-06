@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Router/Router.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MLXFoundation/MLXFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Module_Chat/Module_Chat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Module_Contacts/Module_Contacts.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Module_Explore/Module_Explore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Module_Mine/Module_Mine.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pineapple.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

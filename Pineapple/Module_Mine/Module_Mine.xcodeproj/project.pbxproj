@@ -7,157 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73417A0388DEB0C9D3DADAA0 /* Pods_Pineapple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B45C6EBD2230418A8DBCF3 /* Pods_Pineapple.framework */; };
-		C819F4ED22A9552A0096D752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C819F4EC22A9552A0096D752 /* AppDelegate.swift */; };
-		C819F4EF22A9552A0096D752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C819F4EE22A9552A0096D752 /* ViewController.swift */; };
-		C819F4F222A9552A0096D752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C819F4F022A9552A0096D752 /* Main.storyboard */; };
-		C819F4F422A9552B0096D752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C819F4F322A9552B0096D752 /* Assets.xcassets */; };
-		C819F4F722A9552B0096D752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C819F4F522A9552B0096D752 /* LaunchScreen.storyboard */; };
+		81E5FA193FF8BBC74B7CD660 /* Pods_Module_Mine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8691F62A0895F19CA6C29 /* Pods_Module_Mine.framework */; };
+		C819F50D22A9578E0096D752 /* Module_Mine.h in Headers */ = {isa = PBXBuildFile; fileRef = C819F50B22A9578E0096D752 /* Module_Mine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7DF3E49EB60994B69A9718CF /* Pods-Pineapple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pineapple.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pineapple/Pods-Pineapple.release.xcconfig"; sourceTree = "<group>"; };
-		81B45C6EBD2230418A8DBCF3 /* Pods_Pineapple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pineapple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C819F4E922A9552A0096D752 /* Pineapple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pineapple.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C819F4EC22A9552A0096D752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C819F4EE22A9552A0096D752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C819F4F122A9552A0096D752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C819F4F322A9552B0096D752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C819F4F622A9552B0096D752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C819F4F822A9552B0096D752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F24CF00F5CB72C3944C23DD2 /* Pods-Pineapple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pineapple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pineapple/Pods-Pineapple.debug.xcconfig"; sourceTree = "<group>"; };
+		3B02D2F238AB82B9444EEF1B /* Pods-Module_Mine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Module_Mine.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Module_Mine/Pods-Module_Mine.release.xcconfig"; sourceTree = "<group>"; };
+		A2EBF44988C045D329DCA571 /* Pods-Module_Mine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Module_Mine.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Module_Mine/Pods-Module_Mine.debug.xcconfig"; sourceTree = "<group>"; };
+		C819F50822A9578E0096D752 /* Module_Mine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Module_Mine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C819F50B22A9578E0096D752 /* Module_Mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Mine.h; sourceTree = "<group>"; };
+		C819F50C22A9578E0096D752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D8691F62A0895F19CA6C29 /* Pods_Module_Mine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Module_Mine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C819F4E622A9552A0096D752 /* Frameworks */ = {
+		C819F50522A9578E0096D752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73417A0388DEB0C9D3DADAA0 /* Pods_Pineapple.framework in Frameworks */,
+				81E5FA193FF8BBC74B7CD660 /* Pods_Module_Mine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17DA96E02D4A3BC12A433ED7 /* Pods */ = {
+		5C2226B8D1C71DCF963D675F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F24CF00F5CB72C3944C23DD2 /* Pods-Pineapple.debug.xcconfig */,
-				7DF3E49EB60994B69A9718CF /* Pods-Pineapple.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AE7BB8A2F827F025C988665E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				81B45C6EBD2230418A8DBCF3 /* Pods_Pineapple.framework */,
+				E5D8691F62A0895F19CA6C29 /* Pods_Module_Mine.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C819F4E022A9552A0096D752 = {
+		6FD9D716BA50C620B5D15228 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C819F4EB22A9552A0096D752 /* Pineapple */,
-				C819F4EA22A9552A0096D752 /* Products */,
-				17DA96E02D4A3BC12A433ED7 /* Pods */,
-				AE7BB8A2F827F025C988665E /* Frameworks */,
+				A2EBF44988C045D329DCA571 /* Pods-Module_Mine.debug.xcconfig */,
+				3B02D2F238AB82B9444EEF1B /* Pods-Module_Mine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C819F4FE22A9578E0096D752 = {
+			isa = PBXGroup;
+			children = (
+				C819F50A22A9578E0096D752 /* Module_Mine */,
+				C819F50922A9578E0096D752 /* Products */,
+				6FD9D716BA50C620B5D15228 /* Pods */,
+				5C2226B8D1C71DCF963D675F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C819F4EA22A9552A0096D752 /* Products */ = {
+		C819F50922A9578E0096D752 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C819F4E922A9552A0096D752 /* Pineapple.app */,
+				C819F50822A9578E0096D752 /* Module_Mine.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C819F4EB22A9552A0096D752 /* Pineapple */ = {
+		C819F50A22A9578E0096D752 /* Module_Mine */ = {
 			isa = PBXGroup;
 			children = (
-				C819F4EC22A9552A0096D752 /* AppDelegate.swift */,
-				C819F4EE22A9552A0096D752 /* ViewController.swift */,
-				C819F4F022A9552A0096D752 /* Main.storyboard */,
-				C819F4F322A9552B0096D752 /* Assets.xcassets */,
-				C819F4F522A9552B0096D752 /* LaunchScreen.storyboard */,
-				C819F4F822A9552B0096D752 /* Info.plist */,
+				C819F50B22A9578E0096D752 /* Module_Mine.h */,
+				C819F50C22A9578E0096D752 /* Info.plist */,
 			);
-			path = Pineapple;
+			path = Module_Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C819F50322A9578E0096D752 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C819F50D22A9578E0096D752 /* Module_Mine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		C819F4E822A9552A0096D752 /* Pineapple */ = {
+		C819F50722A9578E0096D752 /* Module_Mine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C819F4FB22A9552B0096D752 /* Build configuration list for PBXNativeTarget "Pineapple" */;
+			buildConfigurationList = C819F51022A9578E0096D752 /* Build configuration list for PBXNativeTarget "Module_Mine" */;
 			buildPhases = (
-				1722161B0443CFCF5850D1A9 /* [CP] Check Pods Manifest.lock */,
-				C819F4E522A9552A0096D752 /* Sources */,
-				C819F4E622A9552A0096D752 /* Frameworks */,
-				C819F4E722A9552A0096D752 /* Resources */,
-				6EF6BB1CDB8B20E85F75E9DF /* [CP] Embed Pods Frameworks */,
+				B5A9EB8976BF774CC58E8D28 /* [CP] Check Pods Manifest.lock */,
+				C819F50322A9578E0096D752 /* Headers */,
+				C819F50422A9578E0096D752 /* Sources */,
+				C819F50522A9578E0096D752 /* Frameworks */,
+				C819F50622A9578E0096D752 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pineapple;
-			productName = Pineapple;
-			productReference = C819F4E922A9552A0096D752 /* Pineapple.app */;
-			productType = "com.apple.product-type.application";
+			name = Module_Mine;
+			productName = Module_Mine;
+			productReference = C819F50822A9578E0096D752 /* Module_Mine.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C819F4E122A9552A0096D752 /* Project object */ = {
+		C819F4FF22A9578E0096D752 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = muhlenXi;
 				TargetAttributes = {
-					C819F4E822A9552A0096D752 = {
+					C819F50722A9578E0096D752 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = C819F4E422A9552A0096D752 /* Build configuration list for PBXProject "Pineapple" */;
+			buildConfigurationList = C819F50222A9578E0096D752 /* Build configuration list for PBXProject "Module_Mine" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = C819F4E022A9552A0096D752;
-			productRefGroup = C819F4EA22A9552A0096D752 /* Products */;
+			mainGroup = C819F4FE22A9578E0096D752;
+			productRefGroup = C819F50922A9578E0096D752 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C819F4E822A9552A0096D752 /* Pineapple */,
+				C819F50722A9578E0096D752 /* Module_Mine */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C819F4E722A9552A0096D752 /* Resources */ = {
+		C819F50622A9578E0096D752 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C819F4F722A9552B0096D752 /* LaunchScreen.storyboard in Resources */,
-				C819F4F422A9552B0096D752 /* Assets.xcassets in Resources */,
-				C819F4F222A9552A0096D752 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1722161B0443CFCF5850D1A9 /* [CP] Check Pods Manifest.lock */ = {
+		B5A9EB8976BF774CC58E8D28 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,72 +166,27 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pineapple-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Module_Mine-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6EF6BB1CDB8B20E85F75E9DF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Pineapple/Pods-Pineapple-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pineapple/Pods-Pineapple-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C819F4E522A9552A0096D752 /* Sources */ = {
+		C819F50422A9578E0096D752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C819F4EF22A9552A0096D752 /* ViewController.swift in Sources */,
-				C819F4ED22A9552A0096D752 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C819F4F022A9552A0096D752 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C819F4F122A9552A0096D752 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C819F4F522A9552B0096D752 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C819F4F622A9552B0096D752 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C819F4F922A9552B0096D752 /* Debug */ = {
+		C819F50E22A9578E0096D752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,6 +220,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -295,10 +245,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C819F4FA22A9552B0096D752 /* Release */ = {
+		C819F50F22A9578E0096D752 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,6 +284,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -350,44 +303,60 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C819F4FC22A9552B0096D752 /* Debug */ = {
+		C819F51122A9578E0096D752 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F24CF00F5CB72C3944C23DD2 /* Pods-Pineapple.debug.xcconfig */;
+			baseConfigurationReference = A2EBF44988C045D329DCA571 /* Pods-Module_Mine.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QU8YR5F8WR;
-				INFOPLIST_FILE = Pineapple/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Module_Mine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhlenxi.Pineapple;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muhlenxi.Module-Mine";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C819F4FD22A9552B0096D752 /* Release */ = {
+		C819F51222A9578E0096D752 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF3E49EB60994B69A9718CF /* Pods-Pineapple.release.xcconfig */;
+			baseConfigurationReference = 3B02D2F238AB82B9444EEF1B /* Pods-Module_Mine.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QU8YR5F8WR;
-				INFOPLIST_FILE = Pineapple/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Module_Mine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhlenxi.Pineapple;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muhlenxi.Module-Mine";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,25 +365,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C819F4E422A9552A0096D752 /* Build configuration list for PBXProject "Pineapple" */ = {
+		C819F50222A9578E0096D752 /* Build configuration list for PBXProject "Module_Mine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C819F4F922A9552B0096D752 /* Debug */,
-				C819F4FA22A9552B0096D752 /* Release */,
+				C819F50E22A9578E0096D752 /* Debug */,
+				C819F50F22A9578E0096D752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C819F4FB22A9552B0096D752 /* Build configuration list for PBXNativeTarget "Pineapple" */ = {
+		C819F51022A9578E0096D752 /* Build configuration list for PBXNativeTarget "Module_Mine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C819F4FC22A9552B0096D752 /* Debug */,
-				C819F4FD22A9552B0096D752 /* Release */,
+				C819F51122A9578E0096D752 /* Debug */,
+				C819F51222A9578E0096D752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C819F4E122A9552A0096D752 /* Project object */;
+	rootObject = C819F4FF22A9578E0096D752 /* Project object */;
 }

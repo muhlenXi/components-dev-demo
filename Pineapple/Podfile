@@ -1,0 +1,63 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+
+workspace 'Pineapple'
+use_frameworks!
+
+def pods_common
+	pod 'CTMediator', '~> 25'
+end
+
+
+def pods_layout
+	pod 'SnapKit', '~> 4.2.0'
+end
+
+
+## 主项目
+target 'Pineapple' do
+  project './Pineapple.xcodeproj'
+
+
+  pods_common
+  pods_layout
+
+end
+
+## 聊天
+target 'Module_Chat' do 
+	project './Module_Chat/Module_Chat.xcodeproj'
+
+	pods_layout
+end
+
+## 联系人
+target 'Module_Contacts' do 
+	project './Module_Contacts/Module_Contacts.xcodeproj'
+
+	pods_layout
+end
+
+## 发现
+target 'Module_Explore' do 
+	project './Module_Explore/Module_Explore.xcodeproj'
+
+	pods_layout
+end
+
+## 我的
+target 'Module_Mine' do 
+	project './Module_Mine/Module_Mine.xcodeproj'
+
+	pods_layout
+end
+
+## 路由
+target 'Router' do 
+	project './Router/Router.xcodeproj'
+
+	pod 'CTMediator', '~> 25'
+end
+
+
